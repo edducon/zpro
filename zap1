@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     
     do
     {
-        system("cls"); // Nebo system("clear") pokud používáte jako překladatel systém Linux/Ubunty
+        system("cls"); // Nebo system("clear"); pokud používáte jako překladatel systém Linux/Ubunty
         cout << "Součet čísel: " << iSum << " Zapsaných hodnot: " << iEntered  << " Určete průměr z hodnot: " << mean << endl << endl;
         cout << "Napište čísla (např. 2 3 4 5 6 7 8): ";
         cin >> input;
